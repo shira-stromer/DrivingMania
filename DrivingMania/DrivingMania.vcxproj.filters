@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+      <Filter Include="Header Files\Buttons">
+      <UniqueIdentifier>{97144151-3ab8-488d-8c94-e7c99c1b3fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{06bcba62-3a9f-453c-be06-9a9aea8aac35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{635f19b5-b333-427e-ab1d-11a6af003b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands">
+      <UniqueIdentifier>{8a47e43d-5fdc-4984-b3fa-2b3cb28ecc44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{719c9dff-7c41-46d7-b907-770244b6dcd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interfaces">
+      <UniqueIdentifier>{3c65041b-a30c-48b1-ba36-0542be9a650d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{225d95cd-0a69-48e8-b218-bbacc89cdd8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

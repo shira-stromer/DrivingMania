@@ -1,0 +1,57 @@
+Ground Ground  50 229 7 384
+Ground Ground  436 233 94 9
+Ground Ground 446 156 68 687
+Ground Ground 40 241 201 15
+Ground Ground 981 394 227 63
+Ground Ground 2 647 12 1977
+Ground Ground -3 136 9 1986
+Ground Ground 1267 151 50 715
+Ground Ground 1291 415 63 346
+Ground Ground 1283 320 93 9
+Ground Ground 1803 351 234 122
+Ground Ground  1181 579 55 610
+Ground Ground 581 219 151 78                
+Ground Ground -1 149 384 52
+Ground Ground 54 147 73 372
+Ground Ground 753 531 61 118
+Ground Ground 1966 203 117 15
+Ground Ground 1291 415 63 346
+Player Player 120 260 0 0 
+SideWalk SideWalk 203 327 98 500
+SideWalk SideWalk 52 443 105 62
+SideWalk SideWalk 117 502 51 884
+SideWalk SideWalk 988 398 247 187
+SideWalk SideWalk 657 223 61 549
+SideWalk SideWalk 1135 152 62 132
+SideWalk SideWalk 704 369 49 89
+SideWalk SideWalk  1763 321 318 217
+SideWalk SideWalk 655 285 40 49
+
+ParkedVehicle ParkedVehicle 63 254 28 41
+ParkedVehicle OrangeCar 61 354 27 44
+ParkedVehicle LightBlueCar 63 408 22 43
+ParkedVehicle WhitCar 901 407 27 66
+ParkedVehicle OpenRedCar 1462 331 73 45
+ParkedVehicle GreenCar 1530 336 65 42
+ParkedVehicle BlackCar 1337 337 63 43
+
+
+Coin Coin 390 266 25 20
+Coin Coin 718 312 25 20
+Coin Coin 1412 351 25 20
+Coin Coin 1932 226 25 20
+Coin Coin 1838 792 25 20
+
+StraightArrow StraightArrow 1680 340 40 40
+StraightArrow StraightArrow 822 364 40 40
+
+StraightArrow RightArrow 267 269 40 40
+StraightArrow RightArrow 383 453 40 40
+StraightArrow RightArrow 961 323 40 40
+StraightArrow RightArrow 1653 224 40 40
+StraightArrow RightArrow 1816 226 40 40
+StraightArrow RightArrow 1389 509 40 40
+StraightArrow RightArrow 1383 224 40 40
+                
+StraightArrow  DownArrow 145 341 40 40
+StraightArrow  DownArrow 1220 414 40 40

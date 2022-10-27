@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Buttons">
+      <UniqueIdentifier>{97144151-3ab8-488d-8c94-e7c99c1b3fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{06bcba62-3a9f-453c-be06-9a9aea8aac35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{635f19b5-b333-427e-ab1d-11a6af003b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands">
+      <UniqueIdentifier>{8a47e43d-5fdc-4984-b3fa-2b3cb28ecc44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{719c9dff-7c41-46d7-b907-770244b6dcd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interfaces">
+      <UniqueIdentifier>{3c65041b-a30c-48b1-ba36-0542be9a650d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{225d95cd-0a69-48e8-b218-bbacc89cdd8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Buttons">
+      <UniqueIdentifier>{bc507ff4-d0e8-43f8-8444-081421dc9513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands">
+      <UniqueIdentifier>{8345dbc4-4bd7-45b5-a50b-39e17fa8a3ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{fdecf19d-dfac-4e09-bc7d-8217fc6ba146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interfaces">
+      <UniqueIdentifier>{fdb30e4d-cc62-4db6-9e16-84ac660d0bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{5b06a7c4-bc3a-438a-bf14-a5c886d585c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers">
+      <UniqueIdentifier>{184d4904-cdc4-4d92-80fb-3356d59dc8d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptions">
+      <UniqueIdentifier>{fd5b5371-1718-4c59-8eb5-062ae6397fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Handlers">
+      <UniqueIdentifier>{9d7cb7f7-1698-42d9-972e-ec2367f541dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Handlers">
+      <UniqueIdentifier>{9a2c615d-c9ce-4d01-93e8-5fbedfa29ef1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandExecuter.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionKeyCommander.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="ICommand.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentFactory.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseClickedCommander.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="IClickable.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Collisionable.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="IColisionable.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="IDrawable.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoresButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="NameScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoresScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="StartGameButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundUpButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundDownButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Textable.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEnteredCommander.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="NotFoundException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingVehicle.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ParkedVehicle.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Pedestrian.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SideWalk.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="UnknownCollisionException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyReleasedCommander.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="TimePassedHanlder.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossSection.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TrafficLight.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossWalkBase.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossWalk.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectNotRegisteredException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="INotifiable.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="IMovable.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeNameButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWinScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedGameComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="InvalidOperationException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomMove.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="StrightMove.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StartGameButton.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundUpButton.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundDownButton.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitButton.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentFactory.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandExecuter.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="ICommand.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseClickedCommander.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionKeyCommander.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="IClickable.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IColisionable.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawable.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="NotFoundException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoresScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoresButton.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Collisionable.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="NameScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Textable.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextEnteredCommander.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuButton.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="UnknownCollisionException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingVehicle.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ParkedVehicle.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Pedestrian.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SideWalk.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyReleasedCommander.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TimePassedHanlder.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionHandler.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossSection.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossWalk.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossWalkBase.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectNotRegisteredException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="TrafficLight.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="IMovable.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="INotifiable.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeNameButton.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWinScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedGameComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="InvalidOperationException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundButton.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomMove.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionUtilities.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpButton.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="StrightMove.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

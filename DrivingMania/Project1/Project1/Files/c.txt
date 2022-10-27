@@ -1,0 +1,8 @@
+CrossSection CrossWalk 612 1137 89 50
+StraightArrow StraightArrow 1090 1100 40 40
+Coin Coin 155 230 35 30
+Pedestrian Pedestrian 1090 1000 40 40
+Pedestrian Pedestrian 1200 1000 40 40
+Pedestrian Pedestrian 1200 1000 40 40
+ParkedVehicle GreenCar 390 12  80 43
+MovingVehicle PurpleCar 400 20 43 80
